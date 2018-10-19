@@ -27,8 +27,8 @@
         <p>Would you prefer to work for a larger company or a smaller startup?</p>
         <select class="form-control" id="companySize">
           <option>Please select an option</option>
-          <option>Larger company</option>
-          <option>Smaller startup</option>
+          <option value="larger">Larger company</option>
+          <option value="smaller">Smaller startup</option>
         </select>
 
         <p>Do you consider yourself more left-brained or right-brained?</p>
@@ -41,8 +41,8 @@
         <p>Are you more interested in web development or creating back-end applications?</p>
         <select class="form-control" id="end">
           <option>Please select an option</option>
-          <option>Web development</option>
-          <option>Creating back-end applications</option>
+          <option value="web">Web development</option>
+          <option value="back-end">Creating back-end applications</option>
         </select>
 
         <p>Is one of your main goals to build mobile apps?</p>
@@ -62,7 +62,7 @@
         <button type="submit" name="button">Submit</button>
       </form>
 
-      <div id="results"></div>
+      <div id="results" class="bg-success"></div>
 
       <h2>Tracks</h2>
       <p>CSS/design</p>

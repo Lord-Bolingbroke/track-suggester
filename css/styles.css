@@ -4,3 +4,11 @@ blockquote {
   margin-left: 5px;
   font-size: 13px;
 }
+
+.form-control {
+  margin: 5px;
+}
+
+#results {
+  font-size: 20px;
+}
