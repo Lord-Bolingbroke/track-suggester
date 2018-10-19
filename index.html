@@ -22,31 +22,41 @@
       <p>Enter some information below and this website will suggest which programming track you should enroll in at Epicodus!</p>
 
       <h2>Survey</h2>
-      <p>Fill out these questions to get a personalized suggestion for what Epicodus track you should enroll in. See the "Tracks" section below for more info about your results.</p>
+      <p>Fill out these questions to get a personalized suggestion for what track you should enroll in. See the "Tracks" section below for more info about your results.</p>
       <form id="survey">
         <p>Would you prefer to work for a larger company or a smaller startup?</p>
-        <select class="form-control" id="company-size">
+        <select class="form-control" id="companySize">
           <option>Please select an option</option>
           <option>Larger company</option>
-          <option>Smaller company or startup</option>
+          <option>Smaller startup</option>
         </select>
 
         <p>Do you consider yourself more left-brained or right-brained?</p>
-        <select class="form-control" id="brain-type">
+        <select class="form-control" id="brainType">
+          <option>Please select an option</option>
           <option>Left-brained</option>
           <option>Right-brained</option>
         </select>
 
-        <p>Would you like to build mobile apps or applications for personal computers and desktops?</p>
-        <select class="form-control" id="app-type">
-          <option>Left-brained</option>
-          <option>Right-brained</option>
+        <p>Are you more interested in web development or creating back-end applications?</p>
+        <select class="form-control" id="backEnd">
+          <option>Please select an option</option>
+          <option>Web development</option>
+          <option>Creating back-end applications</option>
         </select>
 
-        <p>Is one of you main goals to build mobile apps?</p>
-        <select class="form-control" id="app-type">
+        <p>Is one of your main goals to build mobile apps?</p>
+        <select class="form-control" id="mobile">
+          <option>Please select an option</option>
           <option>Yes</option>
           <option>No</option>
+        </select>
+
+        <p>Would you prefer to learn a popular and widely used programming language, or would you prefer to learn a more niche language?</p>
+        <select class="form-control" id="popularity">
+          <option>Please select an option</option>
+          <option>More popular</option>
+          <option>More niche</option>
         </select>
 
         <button type="submit" name="button">Submit</button>
