@@ -24,6 +24,12 @@
       <h2>Survey</h2>
       <p>Fill out these questions to get a personalized suggestion for what track you should enroll in. See the "Tracks" section below for more info about your results.</p>
       <form id="survey">
+
+        <div class="form-group">
+          <label for="name">Please enter your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
         <p>Would you prefer to work for a larger company or a smaller startup?</p>
         <select class="form-control" id="companySize">
           <option>Please select an option</option>
@@ -65,11 +71,15 @@
       <div id="results" class="bg-success"></div>
 
       <h2>Tracks</h2>
-      <p><span class="tracks">CSS/design</span></p>
-      <p><span class="tracks">C#/.NET</span></p>
-      <p><span class="tracks">Java/Android</span></p>
-      <p><span class="tracks">PHP/Drupal</span></p>
-      <p><span class="tracks">Ruby/Rails</span></p>
+      <p><span class="tracks">CSS/design</span> <span id="nameInsert"></span>, we think you should enroll in the CSS/design track!</p>
+
+      <p><span class="tracks">C#/.NET</span> <span id="nameInsert"></span>, we think you should enroll in the C#/.NET track!</p>
+
+      <p><span class="tracks">Java/Android</span> <span id="nameInsert"></span>, we think you should enroll in the Java/Android track!</p>
+
+      <p><span class="tracks">PHP/Drupal</span> <span id="nameInsert"></span>, we think you should enroll in the PHP/Drupal track!</p>
+
+      <p><span class="tracks">Ruby/Rails</span> <span id="nameInsert"></span>, we think you should enroll in the Ruby/Rails track!</p>
 
     </div>
   </body>
