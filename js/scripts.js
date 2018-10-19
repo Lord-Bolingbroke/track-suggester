@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#lengths").submit(function(event) {
+  $("#survey").submit(function(event) {
     event.preventDefault();
 
     var companySize = $("#companySize").val();
@@ -7,7 +7,7 @@ $(document).ready(function() {
     var backEnd = $("#backEnd").val();
     var mobile = $("#mobile").val();
     var popularity = $("#popularity").val();
-
+debugger;
     // companySize
     if (companySize === "Larger company" && popularity === "More popular") {
       $("#results").text("C#/.NET")
