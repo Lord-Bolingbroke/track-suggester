@@ -13,7 +13,11 @@ button {
   margin: 5px;
 }
 
-.tracks {
+.track {
+  display: none;
+}
+
+.track-title {
   font-size: 20px;
   cursor: pointer;
   color: #0088cc;
