@@ -5,8 +5,18 @@ blockquote {
   font-size: 13px;
 }
 
+button {
+  margin: 5px;
+}
+
 .form-control {
   margin: 5px;
+}
+
+.tracks {
+  font-size: 20px;
+  cursor: pointer;
+  color: #0088cc;
 }
 
 #results {
