@@ -13,16 +13,13 @@ button {
   margin: 5px;
 }
 
-.track {
-  display: none;
-}
-
 .track-title {
   font-size: 20px;
   cursor: pointer;
   color: #0088cc;
 }
 
-#results {
+/* #results {
   font-size: 20px;
-}
+  display: none;
+} */
