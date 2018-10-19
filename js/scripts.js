@@ -8,9 +8,11 @@ $(document).ready(function() {
     var mobile = $("#mobile").val();
     var popularity = $("#popularity").val();
     debugger;
-    // companySize
+
     if (companySize === "Please select an option" || brainType === "Please select an option" || backEnd === "Please select an option" || mobile === "Please select an option" || popularity === "Please select an option") {
       $("#results").text("Please fill out all fields.")
+    } else if (brainType === "Right-brained") {
+      $("#results").text("CSS/design")
     } else if (companySize === "Larger company" && popularity === "More popular") {
       $("#results").text("C#/.NET")
     } else {
