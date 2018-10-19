@@ -23,32 +23,31 @@
 
       <h2>Survey</h2>
       <p>Fill out these questions to get a personalized suggestion for what Epicodus track you should enroll in. See the "Tracks" section below for more info about your results.</p>
-      <form class="" action="index.html" method="post">
+      <form id="survey">
+        <p>Would you prefer to work for a larger company or a smaller startup?</p>
+        <select class="form-control" id="company-size">
+          <option>Please select an option</option>
+          <option>Larger company</option>
+          <option>Smaller company or startup</option>
+        </select>
 
-        <div class="form-group">
-          <label for="size">Would you prefer to work for a larger company or a smaller startup?</label>
-          <input type="text" name="" value="">
-        </div>
+        <p>Do you consider yourself more left-brained or right-brained?</p>
+        <select class="form-control" id="brain-type">
+          <option>Left-brained</option>
+          <option>Right-brained</option>
+        </select>
 
-        <div class="form-group">
-          <label for="stability">Do you feel comfortable learning new programming languages, or would you prefer to learn a more stable language?</label>
-          <input type="text" name="" value="">
-        </div>
+        <p>Would you like to build mobile apps or applications for personal computers and desktops?</p>
+        <select class="form-control" id="app-type">
+          <option>Left-brained</option>
+          <option>Right-brained</option>
+        </select>
 
-        <div class="form-group">
-          <label for="left-right">Do you consider yourself more left-brained or right-brained?</label>
-          <input type="text" name="" value="">
-        </div>
-
-        <div class="form-group">
-          <label for="experience">Do you have any previous coding experience?</label>
-          <input type="text" name="" value="">
-        </div>
-
-        <div class="form-group">
-          <label for="freelance">Would you like to freelance or work for a company?</label>
-          <input type="text" name="" value="">
-        </div>
+        <p>Is one of you main goals to build mobile apps?</p>
+        <select class="form-control" id="app-type">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
 
         <button type="submit" name="button">Submit</button>
       </form>
