@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,10 +16,6 @@
       </div>
 
       <h2>Background</h2>
-      <blockquote class="bg-info">
-        <p class="quote">It doesn't really matter what language you choose</p>
-        <footer class="quote">Source</footer>
-      </blockquote>
       <p>Enter some information below and this website will suggest which programming track you should enroll in at Epicodus!</p>
 
       <h2>Survey</h2>
@@ -75,7 +72,7 @@
       </div>
 
       <h2>Tracks</h2>
-      <p><span class="tracks">CSS/design</span></p>
+      <p><span class="tracks" id="t1">CSS/design</span> <span class="hide" id="td1">CSS/design is a great track for those more creatively oriented</span></p>
 
       <p><span class="tracks">C#/.NET</span></p>
 
@@ -84,8 +81,6 @@
       <p><span class="tracks">PHP/Drupal</span></p>
 
       <p><span class="tracks">Ruby/Rails</span></p>
-
-      <p><span class="tracks">CSS/design</span> CCS/design is a great track for those with a more creative inclination.</p>
 
     </div>
   </body>

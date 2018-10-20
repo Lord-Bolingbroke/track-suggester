@@ -2,6 +2,10 @@ $(document).ready(function() {
   $("#survey").submit(function(event) {
     event.preventDefault();
 
+    $("#t1").click(function() {
+    	$("#td1").toggle();
+    });
+
     var companySize = $("#companySize").val();
     var brainType = $("#brainType").val();
     var end = $("#end").val();
@@ -38,13 +42,6 @@ $(document).ready(function() {
     } else {
       $("#warnings").text("Sorry, we could not find a track for you based on the information you provided.")
     }
-
-
-    $(".track-title").click(function() {
-      $(".CSS-hidden").show();
-
-    });
-
 
   });
 });
